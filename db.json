@@ -1,0 +1,37 @@
+{
+  "people" : [
+    {
+      "id" : 0,
+      "name" : "John",
+      "email" : "demo@demo.com",
+      "password" : "abca",
+      "isloggedIn" : "false",
+      "tasks" : [
+        {
+          "title": "harry ",
+          "description": "peron",
+          "date": "",
+          "dueDate": "",
+          "priorityLevel": "urgent",
+          "status": "green",
+          "completed": "true",
+          "notCompleted": "false",
+          "processing": "false",
+          "expired": "false"
+        },
+        {
+          "title": "style ",
+          "description": "helloworld",
+          "date": "",
+          "dueDate": "",
+          "priorityLevel": "normal",
+          "status": "red",
+          "completed": "false",
+          "notCompleted": "true",
+          "processing": "true",
+          "expired": "false"
+        }
+      ] 
+    }
+  ]
+}
