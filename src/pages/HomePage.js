@@ -5,25 +5,40 @@ import { useSelector, useDispatch } from "react-redux";
 import Main from '../components/MainUI';
 
 const HomePage = () => {
+
+  const dispatch = useDispatch();
   const task = useSelector(state => state.Task)
-  console.log('Task=> ', task)
-  // useEffect(() => {
-  //   console.log('hello')
-  // getData()
-  //   foo()
-  // }, [])
+  
+  useEffect(() => {
 
-  const foo = async () => {
-    try {
-      const res = await fetch('https://localhost:3000/people')
-      const data = await res.json();
-      console.log('Rs=>', data);
-    } catch (error) {
-      console.log("error", error)
-    }
-  };
+    console.log('Hello =>>');
+    //api call to get all data..
+    dispatch(getData())
 
-  foo();
+    // try {
+    //   const res = fetch('http://localhost:3000/people').then((res) => {
+    //     return res.json();
+    //   }).then((data) => {
+    //     console.log('Data=>>', data)
+    //   });
+    // } catch (error) {
+    //   console.log("error", error)
+    // }
+
+    // const foo = async () => {
+    //   try {
+    //     const res = await fetch('http://localhost:3000/people');
+    //     const data = await res.json();
+    //     console.log('Data =>> ', data);
+    //   } catch (error) {
+    //     console.log("error", error)
+    //   }
+    // }
+    // foo()
+  }, [])
+
+    
+
 
   return (
     <div>
