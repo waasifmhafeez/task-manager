@@ -1,37 +1,69 @@
 {
-  "people" : [
+  "people": [
     {
-      "id" : 0,
-      "name" : "John",
-      "email" : "demo@demo.com",
-      "password" : "abca",
-      "isloggedIn" : "false",
-      "tasks" : [
+      "id": 0,
+      "name": "John",
+      "email": "demo@demo.com",
+      "password": "abca",
+      "isloggedIn": "false",
+      "tasks": [
         {
+          "TaskId": 0,
           "title": "harry ",
           "description": "peron",
           "date": "",
           "dueDate": "",
           "priorityLevel": "urgent",
-          "status": "green",
+          "status": "completed",
           "completed": "true",
           "notCompleted": "false",
           "processing": "false",
           "expired": "false"
         },
         {
+          "TaskId": 1,
           "title": "style ",
           "description": "helloworld",
           "date": "",
           "dueDate": "",
           "priorityLevel": "normal",
-          "status": "red",
+          "status": "notCompleted",
           "completed": "false",
           "notCompleted": "true",
           "processing": "true",
           "expired": "false"
+        },
+        {
+          "TaskId": 1,
+          "title": "beast ",
+          "description": "peron",
+          "date": "",
+          "dueDate": "",
+          "priorityLevel": "urgent",
+          "status": "processing",
+          "completed": "true",
+          "notCompleted": "false",
+          "processing": "false",
+          "expired": "false"
+        },
+        {
+          "TaskId": 3,
+          "title": "soccer ",
+          "description": "peron",
+          "date": "",
+          "dueDate": "",
+          "priorityLevel": "urgent",
+          "status": "expired",
+          "completed": "true",
+          "notCompleted": "false",
+          "processing": "false",
+          "expired": "false"
         }
-      ] 
+      ]
+    },
+    {
+      "name": "hello",
+      "id": 1
     }
   ]
 }
